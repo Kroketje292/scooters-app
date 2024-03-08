@@ -1,5 +1,5 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/$PROJECT_ID/scooter-app:latest', '.']
+  args: ['build', '-t', 'gcr.io/$PROJECT_ID/scooter-app:production-p', '.']
 images:
-- 'gcr.io/$PROJECT_ID/scooter-app:latest'
+- 'gcr.io/$PROJECT_ID/scooter-app:production-p'
