@@ -4,7 +4,7 @@ const router = require('express').Router();
 const bodyParser = require('body-parser');
 const spherical = require('spherical-geometry-js');
 const request = require('request');
-const scootersDbUrl = process.env.SCOOTERSDBURL || 'http://34.41.22.39:5001/api/scooters';
+const scootersDbUrl = process.env.SCOOTERSDBURL || 'http://scooters_db:5001/api/scooters';
 
 router.use(bodyParser.json());
 
